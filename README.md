@@ -14,11 +14,6 @@ This project performs sentiment analysis on both Twitter data and Amazon review 
 - **Evaluation**: Compare model performance using metrics (accuracy, precision, recall, F1, ROC), confusion matrices, and ROC curves.
 - **Twitter Sentiment Analysis**: Analyze sentiment on tweets using Tweepy and TextBlob (detailed in a separate section).
 
-## Usage
-1. Open and run the `sentiments_V5.ipynb` notebook to reproduce the experiments.
-2. Ensure that all required packages are installed in your environment.
-3. Review the output for model evaluations and visualizations.
-
 ## Model Details & Results
 - **Traditional ML Models**: Logistic Regression with various resampling techniques, Multinomial Naive Bayes, Random Forest, and Linear SVC.
 - **Deep Learning Models**: LSTM and GRU architectures are implemented to assess performance on sequential data.
